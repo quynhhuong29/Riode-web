@@ -1,0 +1,36 @@
+// Extra small (xs) < 576px
+@mixin xs {
+    @media (max-width: 576px) {
+        @content;
+    }    
+}
+// Small (sm) >= 576px
+@mixin sm {
+    @media (min-width: 576px) {
+        @content;
+    }
+}
+// Medium (md) >= 768px
+@mixin md {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+// Large (lg) >= 992px
+@mixin lg {
+    @media (min-width: 992px) {
+        @content;
+    }
+}
+// Extra large (xl) >= 1200px
+@mixin xl {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}
+// Extra extra large (xxl) >= 1400px
+@mixin xl {
+    @media (min-width: 1400px) {
+        @content;
+    }
+}
